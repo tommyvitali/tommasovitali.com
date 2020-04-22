@@ -1,0 +1,513 @@
+@media only screen and (max-width:1600px) {
+
+    .titles {
+        padding-top: 22rem;
+    }
+    .row1,
+    .row2{
+        width:75%;
+    }
+
+    
+        
+    
+}
+/* SCREEN MAX 1366px */
+@media only screen and (max-width:1366px) {
+
+   
+    .row1,
+    .row2{
+        width:83%;
+    }
+
+    
+        
+    .skill p {
+        font-size: 2vw;
+    }
+    
+}
+
+/* SCREEN MAX 1200px */
+@media only screen and (max-width:1200px) {
+
+    .postcard {
+        width:940px;
+    }
+
+    .rightcol p {
+        font-size: 18px;
+    }
+
+    .rightcol h2,
+    .leftcol h2 {
+        font-size: 4vw;
+    }
+
+   
+    .row1,
+    .row2{
+        width:95%;
+    }
+        
+    
+}
+
+/* SCREEN MAX 992px */
+@media only screen and (max-width:992px) {
+
+    header {
+        background-image: url(../img/headersmall.jpg);
+        background-position: center;
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    } 
+
+    .titles {
+        line-height: 3.5rem;
+    }
+
+    .main-title {
+        font-size: 3rem;
+    }
+
+    .subtitles {
+        font-size: 2rem;
+    }
+
+    .postcard {
+        width:750px;
+    }
+
+    .picture {
+        padding:1rem;
+    }
+
+    .photo {
+        padding-bottom: 4rem;
+    }
+
+    .picture img {
+        width:80px;
+        height:auto;
+    }
+
+    .details {
+        line-height: 1.8rem;
+    }
+
+    .rightcol p {
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .rightcol h2,
+    .leftcol h2 {
+        font-size: 3vw;
+    }
+
+   
+    
+        
+    
+}
+
+/* SCREEN MAX 768px */
+@media only screen and (max-width:768px) {
+
+    /* NAVBAR COLLAPSE */
+
+    .lista {
+        display:none;
+    }
+
+    .lista.active {
+
+        display:block;
+        position:absolute;
+        -webkit-animation:fadeIn 2s;
+                animation:fadeIn 2s;
+        text-align: center;
+        background:rgba(0, 0, 0, 0.863);
+        width:100%;
+        left:0;
+        top:80%;
+        
+        
+             
+    }
+
+    
+
+   
+
+    nav ul a {
+        margin:0;
+    }
+
+    .lista.active ul {
+        
+        display:-webkit-box;
+        
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+                align-items: center;
+        padding:1rem 0;
+        width:100%;
+                
+                
+    }
+
+    .lista.active ul li {
+        
+        font-size: 3vw;
+        margin-bottom: 10px;
+                
+                
+    }
+    nav {
+        -webkit-box-pack: justify;
+                justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .nav-link:hover {
+        background:rgb(199, 199, 199);
+    }
+
+   
+
+    .nav-link:hover::after {
+        display:none;
+    }
+
+    .menu-toggle,
+    .menu-toggle.active {
+        display:block;
+        width:40px;
+        height:40px;
+        margin:10px;
+        
+        float:right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+       
+        z-index: 222222;
+    }
+
+    .menu-toggle:before {
+        font-family: 'fontAwesome';
+        content:'\f0c9';
+        line-height: 40px;
+        z-index: 222222;
+        
+        
+    }
+
+    .menu-toggle.active:before {
+        font-family: 'fontAwesome';
+        content:'\f00d';
+        
+        z-index: 222222;
+        
+        
+        
+    }
+
+    
+
+    /* NAVBAR COLLAPSE END*/
+
+    nav {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .titles {
+        padding-top: 18rem;
+    }
+  
+    /* ABOUT SECTION*/
+
+    .postcard {
+        width:512px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-pack:justify;
+                justify-content:space-between;
+        padding:4rem 1rem; 
+       
+        
+    }
+
+
+    .leftcol,
+    .rightcol {
+        width:100%;
+    }
+
+    .photo {
+        -webkit-box-pack: justify;
+                justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .photo img {
+        width:120px;
+        height:auto;
+    }
+
+    .details {
+        line-height: 2.3rem;
+    }
+
+    .skill {
+        padding:0;
+        padding-bottom: 2rem;
+    }
+
+
+    .skill p {
+        font-size: 3vw;
+    }
+
+    .rightcol h2, .leftcol h2 {
+        font-size: 5vw;
+    }
+
+    .rightcol p {
+        text-align: left;
+    }
+
+     /* SERVICES*/
+
+
+    .row1,
+    .row2 {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        -webkit-box-align: center;
+                align-items: center;
+        justify-content: space-around;
+        padding: 4rem 1rem 0 1rem;
+    }
+
+    .row2 {
+        padding-top: 0;
+    }
+
+    .card {
+        width:93%;
+        margin-bottom: 2rem;
+    }
+
+    .row3 {
+        width:100%;
+    }
+
+    .row3 .card {
+        width:93%;
+    }
+
+    .services hr, .portfolio hr {
+        width: 8%;
+        margin: 1rem auto;
+    }
+
+    /* PARALLAX TOOLS*/
+
+    .parallax .ico-circle {
+        
+        box-shadow: 0 0 0 3px #cde1f8;
+    }
+
+    .tools {
+        background:-webkit-gradient(linear, left top, left bottom, from(rgba(2, 91, 255, 0.555)), to(rgba(14, 90, 255, 0.767))), url(../img/developmentsmall.jpg) no-repeat center;
+        background:linear-gradient(to bottom, rgba(2, 91, 255, 0.555), rgba(14, 90, 255, 0.767)), url(../img/developmentsmall.jpg) no-repeat center;
+        background-attachment: scroll;
+        background-position: center;
+        background-size: cover;
+        
+        
+        
+    }
+
+    /* CONTACT*/
+
+    .contact {
+        height:1100px;
+        background-attachment: scroll;
+    }
+
+    .contact .postcard {
+        flex-direction: column-reverse;
+        padding:1rem 1rem; 
+    }
+
+    .contact .leftcol {
+        margin-bottom: 2rem;
+    }
+
+    .contact .rightcol p {
+        padding-left: 15px;
+    }
+
+    .contact .rightcol h2 {
+        padding-left: 15px;
+    }
+
+    .contact .rightcol hr {
+        margin-left: 15px;
+    }
+    .contact-icon {
+        padding-left: 15px;
+    }
+
+    .circles {
+        padding-left: 15px;
+        margin-bottom: 70px;
+    }
+}
+
+/* SCREEN MAX 576px */
+@media only screen and (max-width:576px) {
+
+   
+
+    .main-title {
+        display:-webkit-box;
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        text-align: center;
+        
+    }
+    .main-title span {
+        width:100%;
+    }
+    .tools {
+        height:630px;
+        padding-top: 1.5rem;
+    }
+    .parallax {
+        display:block;
+    }
+
+    .parallax .ico-circle {
+        box-shadow: 0 0 0 10px #cde1f8;
+    }
+
+    .postcard {
+        width:95%;
+    }
+
+    .card {
+        width:95%;
+    }
+
+    .lista.active ul li {
+        font-size: 4vw;
+        margin-bottom: 5px;
+    }
+
+    .contact {
+        height: 1180px;
+    }
+
+    
+
+    
+
+    
+
+    
+
+
+}
+
+/* SCREEN MAX 480px */
+@media only screen and (max-width:480px) {
+
+    .titles {
+        padding-top: 17rem;
+        line-height: 2.5rem;
+    }
+
+    
+
+    .main-title {
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+    }
+
+    .lista.active ul li {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .subtitles {
+        font-size: 1.2rem;
+    }
+
+    .photo {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        padding-left: 0;
+        padding-bottom: 0.8rem;
+        -webkit-box-align: start;
+                align-items: flex-start;
+        
+    }
+
+    .photo img {
+        width: 130px;
+        height: auto;
+    }
+
+    .rightcol h2, .leftcol h2 {
+        font-size: 8vw;
+    }
+
+    .details {
+        margin-top: 0.5rem;
+        
+    }
+
+    .skill p {
+        font-size: 4vw;
+    }
+
+    .rightcol p {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .portfolio {
+        padding-bottom: 1rem;
+    }
+    .footer {
+        font-size: 0.8rem;
+    }
+    
+}
